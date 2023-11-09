@@ -39,7 +39,6 @@ license {
 
 rust_library {
     name: "libatomic_rust",
-    stem: "libatomic",
     host_supported: true,
     crate_name: "atomic",
     cargo_env_compat: true,
